@@ -1,0 +1,14 @@
+{
+    "name": "ramphor/locations",
+    "description": "Register locations such as country, state, city, etc for WordPress",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ramphor Premium",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
