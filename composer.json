@@ -10,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "ramphor/logger": "1.0.0"
+    },
+    "autoload": {
+        "Ramphor\\Locations\\": "src/"
+    }
 }
