@@ -3,10 +3,12 @@ namespace Ramphor\Locations;
 
 use Ramphor\Logger\Logger;
 
-class Registry {
+class Registry
+{
     protected static $instancesArgs = array();
 
-    public static function register($identity, $nestedTaxonomies) {
+    public static function register($identity, $nestedTaxonomies)
+    {
         if (!is_array($nestedTaxonomies)) {
             Logger::warning(
                 'The nested taxonomies must be an array include `key` is the taxonomy and `value` is the parent\'s taxomy',
